@@ -1,0 +1,104 @@
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+  margin: -2.5px;
+}
+
+.row .col-1 {
+  width: 8.33333%;
+  padding: 2.5px;
+}
+
+.row .col-2 {
+  width: 16.66667%;
+  padding: 2.5px;
+}
+
+.row .col-3 {
+  width: 25%;
+  padding: 2.5px;
+}
+
+.row .col-4 {
+  width: 33.33333%;
+  padding: 2.5px;
+}
+
+.row .col-5 {
+  width: 41.66667%;
+  padding: 2.5px;
+}
+
+.row .col-6 {
+  width: 50%;
+  padding: 2.5px;
+}
+
+.row .col-7 {
+  width: 58.33333%;
+  padding: 2.5px;
+}
+
+.row .col-8 {
+  width: 66.66667%;
+  padding: 2.5px;
+}
+
+.row .col-9 {
+  width: 75%;
+  padding: 2.5px;
+}
+
+.row .col-10 {
+  width: 83.33333%;
+  padding: 2.5px;
+}
+
+.row .col-11 {
+  width: 91.66667%;
+  padding: 2.5px;
+}
+
+.row .col-12 {
+  width: 100%;
+  padding: 2.5px;
+}
+
+.btn-start {
+  background-color: #fa9231;
+  color: white;
+  border: 2px solid #512751;
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+  height: 20px;
+  border-radius: 15px;
+}
+
+.container {
+  width: 800px;
+  height: 900px;
+  border: 5px solid #333;
+  margin: 15px auto;
+  background-image: url("courses/BG.jpg");
+  background-size: cover;
+}
+
+.container .row {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 !important;
+}
+
+.container .row .col-3 {
+  padding: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid white;
+  height: 150px;
+}
+/*# sourceMappingURL=style.css.map */
